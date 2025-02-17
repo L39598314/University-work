@@ -1,0 +1,46 @@
+#nav {
+    background-color: #86a877 !important;/* Solid green background */
+    padding: 10px;
+    border-radius: 8px; /* Slight rounded corners */
+  }
+  
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important; /* White text for contrast */
+  }
+  
+.navbar-nav .nav-link:hover {
+    color: #dde8d9 !important; /* Slightly lighter on hover */
+  }
+  
+body{
+    background-color: rgba(187, 185, 185, 0.857) !important; /* Ensure a Solid colour background */
+  }
+  
+  #text1{
+        font-family:sans-serif;
+        text-size-adjust:initial;
+        font-weight:bold;
+        background-color: rgb(187, 185, 185, 0.857);
+        text-align: center;
+  }
+
+  #text1{
+    margin-top: 20px;
+    border-radius: 20%;
+    border-color:#69806d;
+    border-style:solid;;
+  }
+#chefs{
+  font-family:sans-serif;
+  text-align: center;
+  font-weight:bold;
+  color:rgb(187, 185, 185, 0.857);
+}
+
+  footer{
+    background-color: rgb(255, 238, 156)!important; /* Ensure a Solid colour background */
+    .nav-item .nav-link:hover{
+        color: #362912 !important; /* Slightly lighter on hover */
+      }
+    }
