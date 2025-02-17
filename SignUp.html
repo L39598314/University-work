@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page!</title>
+    <link rel="icon" type="image/png" href="Images used/Healthyver2.png">
+    <link rel="stylesheet" href="CSS/signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">      
+  </head>
+<header>    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Twelfth navbar example" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">
+                <img src="Images used/Healthyver2.png" alt="Logo" width="100" height="90" class="d-inline-block align-text-top" id="logo">
+                <h2>Healthy Food Recipes</h2>
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="homepage.html"><h4>Homepage</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutHL.html"><h4>About Us</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="foodVideos.html"><h4>Food Videos</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="SignUp.html"><h4>Sign Up</h4></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+<body>
+<main>
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="stylefont">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Sign up to receive new recipes uploaded!</h1>
+            <p class="col-lg-10 fs-4">By signing up to us. You will have quicker access to new food recipes that are being uploaded on this site!<br>
+            🥗🥪🥡🍘🍜🍰</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" id="SignUPHFR">
+                <div class="form-floating mb-3"  id="SignUPHFR">
+                    <input type="text" class="form-control" id="Name" placeholder="name" required>
+                    <label for="floatingPassword">Name</label>
+                  </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="EmailAddress" placeholder="name@example.com" required>
+                <label for="floatingInput">Email address</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+      <script src="Javascript code/submitNWL.js">
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</main>
+
+</body>
+<footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary"><b>&copy; 2025 Healthy Food Recipes</b></p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="homepage.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="foodVideos.html" class="nav-link px-2 text-body-secondary">Recipes</a></li>
+            <li class="nav-item"><a href="AboutHL.html" class="nav-link px-2 text-body-secondary">About us</a></li>
+            <li class="nav-item"><a href="SignUp.html" class="nav-link px-2 text-body-secondary">Sign up</a></li>
+          </ul>
+        </div>
+</footer>
+</html>
